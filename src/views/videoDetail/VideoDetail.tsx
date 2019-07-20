@@ -1,7 +1,7 @@
  /**
  * Author: Synsoft Global
  * date: 20-07-2019
- * Video Detail is responsible to show videl detail and play pause video
+ * Video Detail is responsible to show video details and play pause video
  * Retrieving data from apis
  * importing top level dependencies
  */
