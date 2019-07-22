@@ -33,7 +33,7 @@ export const styles = StyleSheet.create({
 
   videoDescription: {
     fontSize: 16,
-    color: config.grayColor,
+    color: config.blackColor,
     paddingTop: 15,
     width: "96%",
   },
@@ -44,5 +44,43 @@ export const styles = StyleSheet.create({
     backgroundColor: config.blackColor,
     marginTop: 30,
     marginBottom:50
+  },
+  backgroundVideo: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    bottom: 0,
+    right: 0,
+  },
+  controls: {
+    backgroundColor: 'transparent',
+    borderRadius: 5,
+    position: 'absolute',
+    bottom: 20,
+    left: 20,
+    right: 20,
+  
+  },
+  progress: {
+    flex: 1,
+    flexDirection: 'row',
+    borderRadius: 3,
+    overflow: 'hidden',
+  },
+  innerProgressCompleted: {
+    height: 10,
+    backgroundColor: '#cccccc',
+  },
+  innerProgressRemaining: {
+    height: 10,
+    backgroundColor: '#2C2C2C',
+  },
+ 
+  fullScreen: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    bottom: 0,
+    right: 0,
   }
 });
